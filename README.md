@@ -1,2 +1,2 @@
 # aldoaatravel
-home.html
+index.html
