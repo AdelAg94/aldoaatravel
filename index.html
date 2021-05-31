@@ -5,14 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>شركة الدعاء</title>
-        
-<!-- 
-
-Sentra Template
-
-https://templatemo.com/tm-518-sentra
-
--->
+    
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -23,9 +16,10 @@ https://templatemo.com/tm-518-sentra
         <link rel="stylesheet" href="css/light-box.css">
         <link rel="stylesheet" href="css/owl-carousel.css">
         <link rel="stylesheet" href="css/templatemo-style.css">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lateef&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-
+        <link rel="stylesheet" href="css/custom.css">
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
@@ -41,12 +35,14 @@ https://templatemo.com/tm-518-sentra
     text-align: center;
 }
 .gr-bg{
+    color: white;
     box-shadow: 2px 4px rgba(0,0,0,.08), 4px 12px rgba(0,0,0,.08);
     border-radius: 5px;
     border: 1px solid whitesmoke;
-    background: #FBD3E9;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, rgba(187, 55, 125, 0.7), rgba(251, 211, 233, 0.7));  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, rgba(187, 55, 125, 0.7), rgba(251, 211, 233, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #mybody a{
@@ -124,11 +120,17 @@ https://templatemo.com/tm-518-sentra
                         </a>
                     </li>
                     <li>
-                        <a href="tel:00962795970552">
-                            هاتف: 0795970552
+                        <a href="tel:00962795970552" class="ml-2 text-center">
+                            :هاتف
+                            <br>
+                             0795970552
                         </a>
-                        <a href="mailto:aldoaatravel@yahoo.com">
-                            aldoaatravel@yahoo.com :ايميل
+                        <br>
+                        <a href="mailto:aldoaatravel@yahoo.com" class="ml--2 text-center">
+                            :ايميل
+                            <br>
+                            aldoaatravel@yahoo.com 
+                            
                             
                         </a>
                     </li>
@@ -610,11 +612,11 @@ https://templatemo.com/tm-518-sentra
                     <div class="section-heading gr-bg round" >
                         <div class="row">
                             <div class="col-xs-12 center">
-                        <h1>تواصل<br><em>معنا</em></h1>
+                        <h1 style="color: white;">تواصل<br><em>معنا</em></h1>
                             </div>
                                 <div class="col-lg-5 col-xs-12 center">
                             <a href="tel:00962795970552">
-                                <h2>
+                                <h2 style="color: white;">
                                 هاتف
                                 <br>
                                 0795970552
@@ -623,7 +625,7 @@ https://templatemo.com/tm-518-sentra
                                 </div>
                                 <div class="col-lg-6 col-xs-12 center">
                             <a href="mailto:aldoaatravel@yahoo.com">
-                                <h2>
+                                <h2 style="color: white;">
                                 ايميل
                                 <br>
                                 aldoaatravel@yahoo.com
@@ -639,27 +641,27 @@ https://templatemo.com/tm-518-sentra
                             <div class="row">
                                 <div class="col-md-4">
                                   <fieldset>
-                                    <input name="name" type="text" class="form-control" id="name" placeholder="Your name..." required="">
+                                    <input name="name" type="text" class="form-control ar-text" id="name" placeholder="اسمك ..." required="">
                                   </fieldset>
                                 </div>
                                 <div class="col-md-4">
                                   <fieldset>
-                                    <input name="email" type="email" class="form-control" id="email" placeholder="Your email..." required="">
+                                    <input name="email" type="email" class="form-control ar-text" id="email" placeholder="بريدك الإلكتروني ..." required="">
                                   </fieldset>
                                 </div>
                                  <div class="col-md-4">
                                   <fieldset>
-                                    <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject..." required="">
+                                    <input name="subject" type="text" class="form-control ar-text" id="subject" placeholder="الموضوع ..." required="">
                                   </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                                    <textarea name="message" rows="6" class="form-control ar-text" id="message" placeholder="اكتب نص الرسالة هنا ..." required=""></textarea>
                                   </fieldset>
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                                    <button type="submit" id="form-submit" class="btn">أرسل</button>
                                   </fieldset>
                                 </div>
                             </div>
