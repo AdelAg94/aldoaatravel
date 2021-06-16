@@ -22,7 +22,8 @@ p {
 }
 
 .content-section {
-  padding-top: 80px;
+  /* padding-top: 80px; */
+  padding-top: 10px;
   position: relative;
   width: 100%;
   display: inline-block;
@@ -39,7 +40,7 @@ p {
 .section-heading {
   text-align: left;
   position: relative;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .section-heading h1 {
@@ -158,7 +159,7 @@ header {
 }
 #main-nav ul li a {
   font-size: 3rem;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   color: #fff;
   box-shadow: none;
   border: none;
@@ -414,15 +415,18 @@ header {
 }
 
 .Modern-Slider .item-1 .image {
-  background-image: url(../img/slide_1.jpg);
+  /* background-image: url(../img/slide_1.jpg); */
+  background-image: url(../img/slide_1_1.jpg);
 }
 
 .Modern-Slider .item-2 .image {
-  background-image: url(../img/slide_2.jpg);
+  /* background-image: url(../img/slide_2.jpg); */
+  background-image: url(../img/slide_2_1.jpg);
 }
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../img/slide_3.jpg);
+  /* background-image: url(../img/slide_3.jpg); */
+  background-image: url(../img/slide_3_1.jpg);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
@@ -742,8 +746,9 @@ header {
 #blog .tabs li {
   display: inline-block;
   text-align: center;
-  width: 25%;
-  float: left;
+  /* This width differs based on li(s) */
+  width: 50%;
+  float: right;
   margin: 0;
   padding: 0;
 }
@@ -807,9 +812,11 @@ header {
 }
 
 #blog .tabgroup ul li img {
+  border-radius: 2rem;
   float: left;
   margin-right: 30px;
   max-width: 100%;
+  height: 50vw;
   overflow: hidden;
 }
 #blog .tabgroup ul li .text-content {
@@ -827,7 +834,8 @@ header {
 }
 
 #blog .item .text-content span {
-  display: inline-block;
+  /* display: inline-block; */
+  display: block;
   font-size: 15px;
   font-weight: 600;
   color: #7a7a7a;

@@ -21,17 +21,18 @@
 }
 
 .sample {
-    width: 99%;
+    width: 25rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
     /* width: 128px; */
     /* height: 96px; */
     position: relative;
     backdrop-filter: blur(4px);
     /* background: rgba(255, 255, 255, 0.2); */
-    background: #fea;
+    background: #ffeeaaa8;
     box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.2);
-    margin-right: 1rem;
     margin-bottom: 1rem;
+    margin-left: auto;
+    border-radius: 2rem;
 }
 .ribbon {
     position: absolute;
@@ -101,4 +102,14 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 /* For shadow text  */
 .Modern-Slider .info h1 {
     text-shadow: 5px 5px 5px #966800;
+}
+
+.text-ar{
+    direction: rtl;
+    text-align: right;
+}
+
+.ribbon-blog{
+    margin-right: 1rem;
+    display: inline-block;
 }
