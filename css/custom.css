@@ -94,7 +94,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 #mybody a{
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 .pipe{
     color: #c38a0d;
