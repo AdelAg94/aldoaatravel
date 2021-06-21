@@ -6,9 +6,9 @@ $(document).ready(function(){
             "mail":'aldoaa'
         }
         var mailurl = 'https://ovq9z0uac8.execute-api.us-west-2.amazonaws.com/dev/sendMail' 
-        var mailurl_2 = ' https://yymk086tm1.execute-api.us-west-2.amazonaws.com/prod/rsendmail' 
+        // var mailurl_2 = ' https://yymk086tm1.execute-api.us-west-2.amazonaws.com/prod/rsendmail' 
         $.ajax({
-            url: mailurl_2,
+            url: mailurl,
             // dataType: "json",
             // contentType: "application/json",
             // data: JSON.stringify(data),
