@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#contact-form").submit(function(e){
-        console.log('We entered the submitted form')
+        console.log('We entered the submitted form 11:55PM')
         e.preventDefault()
         var data = {
             "mail":'aldoaa'
