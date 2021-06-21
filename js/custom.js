@@ -5,16 +5,15 @@ $(document).ready(function(){
         var data = {
             "mail":'aldoaa'
         }
-        var mailurl = 'https://ynzmw6iga9.execute-api.us-west-2.amazonaws.com/Dev/aag'
-        $.ajax( mailurl, {
-            headers:
-             {'Content-Type': 'application/json',
-              'Access-Control-Allow-Origin': '*',
-              'Accept': "*/*"
-
-             },
-            data: JSON.stringify(data),
+        var mailurl = 'https://ovq9z0uac8.execute-api.us-west-2.amazonaws.com/dev/sendMail' 
+        var mailurl_2 = ' https://ynzmw6iga9.execute-api.us-west-2.amazonaws.com/prod/aag' 
+        $.ajax({
+            url: mailurl_2,
+            dataType: "json",
+            // contentType: "application/json",
+            // data: JSON.stringify(data),
             type: 'GET',
+            
             success: function(result) {
                  // success code execution here
                  console.log(result)
