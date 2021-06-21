@@ -7,12 +7,14 @@ $(document).ready(function(){
         }
         var mailurl = 'https://ynzmw6iga9.execute-api.us-west-2.amazonaws.com/Dev/aag'
         $.ajax( mailurl, {
+            headers:
+             {'Content-Type': 'application/json',
+              'Access-Control-Allow-Origin': '*',
+              'Accept': "*/*"
+
+             },
             data: JSON.stringify(data),
-            crossDomain: true,
-            contentType:false,
-            processData:false,
-            method: 'GET',
-            dataType: 'json',
+            type: 'GET',
             success: function(result) {
                  // success code execution here
                  console.log(result)
