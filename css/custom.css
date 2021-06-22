@@ -113,3 +113,17 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     margin-right: 1rem;
     display: inline-block;
 }
+
+#wait{
+    width: 90%;
+    font-size: larger;
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 5%;
+    background-color: #89d8f6;
+    font-size: 3.5rem;
+    display: none;
+    margin-right: -50%;
+    z-index: 1000;
+}

@@ -19,7 +19,9 @@ $(document).ready(function(){
             dataType: "json",
             data: data,
             type: 'GET',
-            
+            beforeSend: function(){
+                $("#wait").show(3000)
+            },
             success: function(result) {
                  // success code execution here
                  console.log(result)
@@ -35,6 +37,7 @@ $(document).ready(function(){
                alert('عذرا! حدث خطأ يرجى محاولة الإرسال مرة أخرى')
             },
             complete: function(xhr,status) {
+                $("#wait").hide(3000)
                  // completion code here
             }
      })
