@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $("#contact-form").submit(function(e){
-        console.log('We entered the submitted form 01:26AM')
         e.preventDefault()
         var f_name = $("#name").val()
         var f_email = $("#email").val()
