@@ -827,7 +827,7 @@ header {
   padding-top: 7.5px;
   margin-top: 0px;
   margin-bottom: 5px;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 600;
   color: #232323;
   letter-spacing: 0.5px;
@@ -836,7 +836,7 @@ header {
 #blog .item .text-content span {
   /* display: inline-block; */
   display: block;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   color: #7a7a7a;
   letter-spacing: 0.5px;

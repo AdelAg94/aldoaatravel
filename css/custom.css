@@ -127,3 +127,15 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     margin-right: -50%;
     z-index: 1000;
 }
+#blog .tabgroup .program-details li {
+    display: list-item;
+    text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    border-bottom: 0px solid #ddd;
+    font-size: 2.5rem;
+}
+
+#blog .tabgroup .program-details{
+    list-style-type: square;
+}
