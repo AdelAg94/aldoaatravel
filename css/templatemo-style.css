@@ -813,7 +813,7 @@ header {
 
 #blog .tabgroup ul li img {
   border-radius: 2rem;
-  float: left;
+  /* float: left; */
   margin-right: 30px;
   width: 40rem;
   height: 35rem;
