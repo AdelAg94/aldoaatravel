@@ -42,4 +42,8 @@ $(document).ready(function(){
             }
      })
     })
+    $(".slider, .page-content").click(function(){
+        $('#main-nav').removeClass("in");
+        // alert("You have clicked ouyside of navbar")  
+    })
 })
